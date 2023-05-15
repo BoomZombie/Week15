@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Планировщик задач</title>
+    <link rel="stylesheet" href="style\style.css"/>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h3 class="header__title">Добавить задачу</h3>
+            <div class="card-body">
+                <form id="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="taskInput" placeholder="Задача" required/>
+                        <small class="form-text text-muted">Пожалуйста, заполните это поле</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg active">Добавить</button>
+                </form>
+            </div>
+
+        <div class="todo__list">
+            <h3 class="main__title">Список задач</h3>
+            <div class="card mb-4">
+                <ul id="taskList" class="list-group list-group-flush">
+                    <li id="emptyList" class="list-group-item empty-list">
+                        <div class="empty-list__title">Нет задач</div>
+                    </li>
+                    <!--<li class="list-group-item d-flex justify-content-between task-item">
+                        <span class="task-title task-title--done">Сделать зарядку</span>
+					        <div class="task-item__buttons">
+						        <button type="button" data-action="done" class="btn-action">
+							        <img src="style/img/done.png" alt="Done" width="18" height="18">
+						        </button>
+						        <button type="button" data-action="delete" class="btn-action">
+							        <img src="style/img/delete.png" alt="delete" width="18" height="18">
+						        </button>
+                            </div>
+                        </li>-->
+                </ul>
+            </div>
+            <button type="removeDoneTask" class="removeDoneTask" value="Очистить список задач">Очистить список задач</button>
+        </div>
+        </div>
+</main>
+
+    <script src="index.js"></script>
+</body>
+</html>

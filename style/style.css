@@ -1,0 +1,103 @@
+.container {
+    display: contents;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #dce0e1;
+    padding-top: 30px;
+    padding-left: 500px;
+}
+
+.header__title {
+    display: flex;
+    padding-left: 186px;
+    text-shadow: 3px 3px rgb(176, 173, 173);
+}
+
+.main__title {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 199px;
+    text-shadow: 3px 3px rgb(176, 173, 173);
+}
+
+li {
+    list-style-type: none;
+}
+
+#form button {
+    width: 20vw;
+    margin-left: 115px;
+    margin-top: 10px;
+    cursor: cell;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.removeDoneTask {
+    width: 20vw;
+    margin-left: 115px;
+    margin-top: 10px;
+    cursor: cell;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.form-text {
+    display: flex;
+    padding-left: 10vw;
+}
+
+.form-control {
+    padding-left: 15vw;
+    width: 20vw;
+    border-radius: 3px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.task-title--done {
+    color: #62635f;
+}
+
+.empty-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    padding-right: 34vw;
+}
+
+.empty-list__title {
+    font-size: 18px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 10px;
+    font-weight: 300;
+}
+
+.btn-action {
+    margin-top: 10px;
+    margin-left: 3px;
+    padding: 6px 10px; 
+    border-radius: 7px;
+    align-items: end;
+}
+
+.btn-action:hover {
+    background-color: #7375d7;
+}
+
+.btn-action img {
+    pointer-events: none;
+}
+
+.none {
+    display: none !important;
+}
